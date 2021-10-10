@@ -11,6 +11,7 @@ export default class Display extends LightningElement {
     ];
   }
   
+  //parseInt has added because of to make it as a number
   handleAugmentorChange(event) {
     this.augmentor = parseInt(event.target.value);
   }
