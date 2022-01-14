@@ -22,6 +22,7 @@ export default class Display extends LightningElement {
   }
   
   handleDecrement(event) {
+    console.log('this is the test');
     const operand = event.detail;
     this.counter -= operand;
   }
